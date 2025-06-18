@@ -37,12 +37,12 @@ public class Member {
         Scanner sc = new Scanner(System.in);
 
         // Member input
-        System.out.print("Enter Member ID: ");
+        System.out.print("Enter Member ID : ");
         int memberId = sc.nextInt();
         sc.nextLine(); // consume newline
-        System.out.print("Enter Member Name: ");
+        System.out.print("Enter Member Name : ");
         String name = sc.nextLine();
-        System.out.print("Enter Membership Date: ");
+        System.out.print("Enter Membership Date : ");
         String membershipDate = sc.nextLine();
         Member member = new Member(memberId, name, membershipDate);
 
