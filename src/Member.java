@@ -23,10 +23,10 @@ public class Member {
     }
 
     public void display() {
-        System.out.println("\nMember ID: " + id);
-        System.out.println("Name: " + name);
-        System.out.println("Membership Date: " + membershipDate);
-        System.out.println("--- Borrowed Books ---");
+        System.out.println("\nMember ID : " + id);
+        System.out.println("Name : " + name);
+        System.out.println("Membership Date : " + membershipDate);
+        System.out.println("\n--- Borrowed Books ---");
         for (Borrow b : borrowList) {
             b.display();
             System.out.println();
