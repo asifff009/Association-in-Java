@@ -18,7 +18,7 @@ public class Member {
         if (borrowList.size() < 3) {
             borrowList.add(record);
         } else {
-            System.out.println("Cannot borrow more than 3 books.");
+            System.out.println("Cannot borrow more than 3 books...");
         }
     }
 
