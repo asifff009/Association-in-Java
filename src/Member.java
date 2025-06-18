@@ -53,12 +53,12 @@ public class Member {
             if (!choice.equalsIgnoreCase("yes")) break;
 
             // Book input
-            System.out.print("Enter Book ID: ");
+            System.out.print("Enter Book ID : ");
             int bookId = sc.nextInt();
             sc.nextLine();
-            System.out.print("Enter Book Title: ");
+            System.out.print("Enter Book Title : ");
             String title = sc.nextLine();
-            System.out.print("Enter Book Author: ");
+            System.out.print("Enter Book Author : ");
             String author = sc.nextLine();
             Book book = new Book(bookId, title, author);
 
