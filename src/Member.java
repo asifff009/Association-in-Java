@@ -63,9 +63,9 @@ public class Member {
             Book book = new Book(bookId, title, author);
 
             // Borrow date input
-            System.out.print("Enter Borrow Date: ");
+            System.out.print("Enter Borrow Date : ");
             String borrowDate = sc.nextLine();
-            System.out.print("Enter Due Date: ");
+            System.out.print("Enter Due Date : ");
             String dueDate = sc.nextLine();
 
             Borrow borrow = new Borrow(book, borrowDate, dueDate);
